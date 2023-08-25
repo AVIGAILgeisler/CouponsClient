@@ -1,0 +1,7 @@
+.CouponContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+    padding: 20px;
+}

@@ -1,0 +1,25 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 250px; /* or whatever width you prefer */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .coupon-header {
+    color: darkblue; /* or any color you prefer */
+    margin-top: 0; /* To ensure no unnecessary spacing at the top */
+    margin-bottom: 10px; /* or adjust as needed */
+    font-size: 1.5em; /* adjust as needed */
+    font-weight: bold;
+  }
